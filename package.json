@@ -1,0 +1,25 @@
+{
+  "name": "unplugin-uniapp-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --outDir dist --watch",
+    "build": "tsc --outDir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/webpack": "^5.28.0",
+    "chokidar": "^3.5.3",
+    "fast-glob": "^3.2.11",
+    "mustache": "^4.2.0",
+    "unplugin": "^0.6.3"
+  },
+  "devDependencies": {
+    "@types/mustache": "^4.1.2",
+    "typescript": "^4.7.2"
+  }
+}
