@@ -1,16 +1,27 @@
 {
   "name": "unplugin-uniapp-pages",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "使用 unplugin 构建的自动生成 uni-app 页面配置的插件",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsc --outDir dist --watch",
     "build": "tsc --outDir dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "uniapp",
+    "uni-app",
+    "plugin",
+    "pages",
+    "route",
+    "routes",
+    "unplugin"
+  ],
+  "repository": "Enside/unplugin-uniapp-pages",
+  "license": "MIT",
   "dependencies": {
     "@types/webpack": "^5.28.0",
     "chokidar": "^3.5.3",
